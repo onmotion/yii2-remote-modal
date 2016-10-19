@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "cenotia\\components\\": ""
+            "cenotia\\components\\modal": ""
         }
     }
 }
