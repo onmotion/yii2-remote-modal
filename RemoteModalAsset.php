@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 
 class RemoteModalAsset extends AssetBundle
 {
-     public $sourcePath = '@vendor/cenotia/yii2-remote-modal/components/modal/assets';
+     public $sourcePath = '@vendor/cenotia/yii2-remote-modal/assets';
 
     public $depends = [
         'yii\web\YiiAsset',
