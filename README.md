@@ -17,7 +17,6 @@ and run
 
 in your controller's actions (that you want to display in a modal), add the following code :
 
-``
     public function actionTest() 
     {
 	    $request = \Yii::$app->request;
@@ -32,7 +31,6 @@ in your controller's actions (that you want to display in a modal), add the foll
         ];
     }
 
-``
 
 ### In your view
 
