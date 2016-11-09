@@ -211,6 +211,8 @@ a.desc:before {
   }
   .modal .modal-content {
     box-shadow: none;
-    z-index:9999;
   }
+  .modal-open .select2-dropdown {
+    z-index: 9999;
+}
 }
