@@ -40,12 +40,12 @@ The calling link would be
 
 At the end of the view file, add this :
 
-``<?php RemoteModal::begin([
-			"id"=>"XXXXXXXXXID",
-			"options"=> [ "class"=>"fade slide-right "],
-			"footer"=>"",// always need it for jquery plugin
-			])?>
-	<?php RemoteModal::end(); ?>
+``	<?php RemoteModal::begin([
+				"id"=>"XXXXXXXXXID",
+				"options"=> [ "class"=>"fade slide-right "],
+				"footer"=>"", // always need it for jquery plugin
+				])?>
+		<?php RemoteModal::end(); ?>
 ``
 
 The available classes in options are :
