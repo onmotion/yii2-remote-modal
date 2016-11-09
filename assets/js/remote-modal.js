@@ -93,6 +93,9 @@ function RemoteModal(modalId) {
      */
     this.setContent = function (content) {
         $(this.content).html(content);
+        $(content).filter('script').each(function(){
+            $.globalEval(this.text || this.textContent || this.innerHTML || '');
+        });
     };
 
     /**
