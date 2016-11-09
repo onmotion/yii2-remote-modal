@@ -62,10 +62,4 @@ The available classes in options are :
 
 
 
-##release trail
-
-version 1.0.0
-=============
-Initial release 2016-11-1
-
 
