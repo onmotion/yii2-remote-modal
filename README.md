@@ -34,19 +34,24 @@ in your controller's actions (that you want to display in a modal), add the foll
 
 ### In your view
 
+At the beginning of your file
+
+	use cenotia\components\modal\RemoteModal;
+
+
 The calling link would be
 
 ``<a href="/site/test" role="XXXXXXXXXID">Test</a>``
 
 At the end of the view file, add this :
 
-``	<?php RemoteModal::begin([
-				"id"=>"XXXXXXXXXID",
-				"options"=> [ "class"=>"fade slide-right "],
-				"footer"=>"", // always need it for jquery plugin
-				])?>
-		<?php RemoteModal::end(); ?>
-``
+	<?php RemoteModal::begin([
+		"id"=>"XXXXXXXXXID",
+		"options"=> [ "class"=>"fade slide-right "],
+		"footer"=>"", // always need it for jquery plugin
+		])?>
+	<?php RemoteModal::end(); ?>
+
 
 The available classes in options are :
 
