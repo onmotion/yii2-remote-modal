@@ -211,5 +211,6 @@ a.desc:before {
   }
   .modal .modal-content {
     box-shadow: none;
+    z-index:9999;
   }
 }
