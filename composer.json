@@ -7,9 +7,9 @@
     "license": "BSD 3-Clause",
     "authors": [
         {
-            "name": "Xavier Villamuera",
-            "email": "xavier@cenotia.com",
-            "homepage": "http://www.cenotia.com/"
+            "name": "Pierre Lenaerts",
+            "email": "pierre@cenotia.com",
+            "homepage": "https://github.com/cenotia/"
         }
     ],
     "minimum-stability": "stable",
