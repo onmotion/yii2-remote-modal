@@ -4,11 +4,11 @@
  * Use for johnitvn/yii2-ajaxcrud extension
  * @author John Martin john.itvn@gmail.com
  */
-(function ($) {
+/*(function ($) {
     $.fn.hasAttr = function (name) {
         return this.attr(name) !== undefined;
     };
-}(jQuery));
+}(jQuery));*/
 
 
 function RemoteModal(modalId) {

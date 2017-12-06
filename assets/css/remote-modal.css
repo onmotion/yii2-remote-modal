@@ -26,6 +26,28 @@ a.desc:before {
   }
 }
 
+.modal-transparent
+{
+    background: transparent;
+}
+
+.modal-transparent .modal-body,.modal-transparent .modal-content, .modal-transparent .modal-header, .modal-transparent .footer 
+{
+    background: transparent;
+}
+
+.modal-transparent .modal-header, .modal-transparent .modal-footer
+{
+    border:0!important;
+}
+
+.modal-transparent .close
+{
+    opacity:1;
+    color:red;
+    font-size: xx-large;
+}
+
 .modal.fade.stick-up .modal-dialog {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);

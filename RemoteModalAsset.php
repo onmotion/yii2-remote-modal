@@ -20,6 +20,7 @@ class RemoteModalAsset extends AssetBundle
    ];
     
     public $js = [
+    'js/hasAttr.js',    
 	'js/remote-modal.js'
     ];
 
