@@ -205,6 +205,10 @@ a.desc:before {
   -ms-transform: translate(0, 0);
 }
 
+.modal.extra-large > .modal-dialog{
+  width:80%;
+}
+
 @media (min-width: 768px) {
     .modal.stick-up .modal-dialog {
         margin: -5px auto;
