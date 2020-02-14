@@ -5,7 +5,7 @@ namespace cenotia\components\modal;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 
-class RemoteModal extends \yii\bootstrap\Modal
+class RemoteModal extends \yii\bootstrap4\Modal
 {
     const TYPE_DEFAULT = 'default';
 
